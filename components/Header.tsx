@@ -8,15 +8,13 @@ const Header = () => {
             <nav>
                 <ul className="flex space-x-4 text-sm">
                     <li>
-                        <a
-                         href="#map" className="hover:text-[#deb887] transition-colors duration-200"
-                        >マップ</a>
+                        <a href="#map" className="hover:text-[#deb887] transition-colors duration-200">
+                            マップ
+                        </a>
                     </li>
                     <li>
-                        <a
-                         href="#info"
-                         className="hover:text-[#deb887] transition-colors"
-                         >施設案内
+                        <a href="info" className="hover:text-[#deb887] transition-colors duration-200">
+                            施設案内
                         </a>
                     </li>
                 </ul>
@@ -24,4 +22,5 @@ const Header = () => {
         </header>
     );
 };
+
 export default Header;
