@@ -1,10 +1,7 @@
 const HeroArea = () => {
     return (
-        <section className="text-center">
-            <h1 className="text-4xl font-bold">浜町公園へようこそ</h1>
-            <p className="mt-4 text-lg">
-                自然と遊びが楽しめる公園ガイドです。
-            </p>
+        <section className="h-[70vh] bg-gray-200 flex items-center justify-center">
+            <h1 className="text-4xl font-bold">HeroArea</h1>
         </section>
     );
 };
