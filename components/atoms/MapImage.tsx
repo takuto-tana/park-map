@@ -8,7 +8,7 @@ const MapImage = () => {
       <img
         src="/images/Park-Map.png"
         alt="浜町公園マップ"
-        className="w-full rounded-lg shadow-md"
+        className="mx-auto w-full max-w-4xl rounded-lg shadow-md"
       />
     </a>
   );

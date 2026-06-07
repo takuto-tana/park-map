@@ -13,7 +13,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="info" className="hover:text-[#deb887] transition-colors duration-200">
+                        <a href="#info" className="hover:text-[#deb887] transition-colors duration-200">
                             施設案内
                         </a>
                     </li>
