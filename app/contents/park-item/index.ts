@@ -1,2 +1,2 @@
-export { parkItems } from "./data";
-export type { ParkItem } from "./type";
+export { facilitiesData } from "./data";
+export type { Facility, Category } from "./type";
