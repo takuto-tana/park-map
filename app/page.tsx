@@ -1,7 +1,8 @@
-import { FacilitiesList } from "@/components/FacListTemplates";
+import FacilitiesList from "@/components/FacListTemplates";
 import Header from "@/components/Header";
 import HeroArea from "@/components/organisms/HeroArea";
 import MapArea from "@/components/organisms/MapArea";
+import { parkItems } from "./contents/park-item";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <main className="p-6">
         <HeroArea />
         <MapArea />
-        <FacilitiesList />
+        <FacilitiesList items={parkItems}/>
       </main>
     </div>
   );
