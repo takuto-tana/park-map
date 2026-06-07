@@ -7,6 +7,10 @@ type FacilityCategoryListProps = {
   onToggle: (id: number) => void;
 };
 
+const getCategoryId = (category: string) => {
+    return `category-${category}`;
+};
+
 const FacilityCategoryList = ({
   categories,
   openId,
@@ -15,7 +19,7 @@ const FacilityCategoryList = ({
   return (
     <div className="mt-6 space-y-8">
       {categories.map((category) => (
-        <section key={category.category} id = {category.category}>
+        <section key={category.category} id={getCategoryId(category.category)} className="scroll-mt-24">
           <h3 className="mb-4 text-xl font-bold">{category.category}</h3>
 
           <ul className="space-y-4">
