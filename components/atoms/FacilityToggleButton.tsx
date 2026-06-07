@@ -1,3 +1,4 @@
+"use client";
 type FacilityToggleButtonProps = {
     name: string;
     isOpen: boolean;

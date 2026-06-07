@@ -1,14 +1,14 @@
-import { ParkItem } from "@/app/contents/park-item";
+import { Category } from "@/app/contents/park-item";
 import FacilityDetail from "./FacilityDetail";
 
-type FacListTemplatesProps = {
-    items: ParkItem[];
+type  FacListTemplatesProps = {
+    categories: Category[];
 };
 
-const FacListTemplates = ({ items }: FacListTemplatesProps) => {
+const FacListTemplates = ({ categories}: FacListTemplatesProps) => {
     return (
         <div className="max-w-4xl mx-auto">
-            <FacilityDetail items={items}/>
+            <FacilityDetail categories={categories} />
         </div>
     );
 };

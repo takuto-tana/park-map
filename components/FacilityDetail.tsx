@@ -1,13 +1,14 @@
 "use client";
-import { ParkItem, parkItems } from "@/app/contents/park-item";
+
+import { Category } from "@/app/contents/park-item";
 import { useState } from "react";
 import FacilityCategoryList from "./organisms/FacilityCategoryList";
 
-type FacilityDetailProps = {
-    items: ParkItem[];
+type  FacilityDetailProps = {
+    categories: Category[];
 };
 
-const FacilityDetail = ({items}: FacilityDetailProps) => {
+const FacilityDetail = ({categories}: FacilityDetailProps) => {
     const [openId, setOpenId] = useState<number | null>(null);
 
     const handleToggle = (id: number) => {
@@ -16,7 +17,7 @@ const FacilityDetail = ({items}: FacilityDetailProps) => {
 
     return (
         <FacilityCategoryList
-         items={items}
+         categories={categories}
          openId={openId}
          onToggle={handleToggle} />
     );
