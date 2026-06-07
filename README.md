@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Park Map
 
-## Getting Started
+## 概要
 
-First, run the development server:
+浜町公園利用者向けの施設案内サイトです。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+施設カテゴリごとの一覧表示や詳細情報の確認ができ、利用者が目的の施設を見つけやすいように設計しました。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+本プロジェクトは、Next.js・TypeScript・Tailwind CSS の学習を目的として作成しました。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使用技術
 
-## Learn More
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Git / GitHub
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 主な機能
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 施設一覧表示
 
-## Deploy on Vercel
+カテゴリごとに施設情報を表示します。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### カテゴリナビゲーション
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+カテゴリボタンをクリックすると対象カテゴリへスムーズに移動できます。
+
+### アコーディオン表示
+
+施設名をクリックすると詳細情報を表示できます。
+
+### 画像スライダー
+
+複数画像を持つ施設では前後ボタンで画像を切り替えることができます。
+
+---
+
+## 工夫した点
+
+* コンポーネント分割を意識し、再利用しやすい構成を採用
+* TypeScriptを利用し型安全性を確保
+* カテゴリナビゲーション機能を追加し操作性を向上
+
+---
+
+## 学んだこと
+
+* React Hooks（useState）
+* Propsによるデータ受け渡し
+* TypeScriptの型定義
+* コンポーネント設計
+* Gitによるブランチ運用とマージ
+
+---
+
+## 今後の改善案
+
+* CMSとの連携
+* レスポンシブデザインの改善
+* 施設検索機能の追加
+* 管理画面の実装
