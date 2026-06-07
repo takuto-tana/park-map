@@ -15,7 +15,7 @@ const FacilityCategoryList = ({
   return (
     <div className="mt-6 space-y-8">
       {categories.map((category) => (
-        <section key={category.category}>
+        <section key={category.category} id = {category.category}>
           <h3 className="mb-4 text-xl font-bold">{category.category}</h3>
 
           <ul className="space-y-4">
