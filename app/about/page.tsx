@@ -5,3 +5,5 @@ const AboutPage = () => {
         </main>
     );
 };
+
+export default AboutPage;
