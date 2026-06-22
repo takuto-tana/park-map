@@ -25,7 +25,7 @@
 
 ## 公開URL
 
-（デプロイ後に追加）
+park-map-indol.vercel.app
 
 ## 今後の改善
 
